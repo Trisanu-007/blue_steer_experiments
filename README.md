@@ -21,16 +21,6 @@ The experiment focuses on three model variants:
 ├── run_judge_experiments.slurm    # SLURM script for judge evaluation
 ├── pyproject.toml                 # Project dependencies
 ├── README.md                      # This file
-└── results/                       # Output directory
-    ├── nilanjans_models/          # Pre-run results
-    └── om-em/                     # Experiment outputs
-        └── <run-id>/              # Each run creates a timestamped directory
-            ├── inventory/         # Model inventory and selection matrix
-            ├── manifest/          # List of models to evaluate
-            ├── scored/            # CSV files with scored responses
-            ├── logs/              # Evaluation logs
-            └── plots/             # Visualization outputs
-```
 
 ## Files Description
 
